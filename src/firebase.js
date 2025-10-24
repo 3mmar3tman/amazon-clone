@@ -11,16 +11,7 @@ const firebaseConfig = {
   appId: process.env.REACT_APP_FIREBASE_APP_ID,
   measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID,
 };
-/* const firebaseConfig = {
-  apiKey: "AIzaSyD8sXEXAMPLE12345",
-  authDomain: "myapp.firebaseapp.com",
-  projectId: "myapp",
-  storageBucket: "myapp.appspot.com",
-  messagingSenderId: "123456789",
-  appId: "1:123456789:web:abcd1234",
-}; */
-
-console.log("Firebase API Key:", process.env.REACT_APP_FIREBASE_API_KEY); // للتأكد
+console.log("Firebase API Key:", process.env.REACT_APP_FIREBASE_API_KEY);
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
