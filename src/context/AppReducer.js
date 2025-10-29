@@ -1,8 +1,5 @@
 export const getBasketTotal = (basket) =>
-  basket.reduce((amount, item) => {
-    return amount + item.price;
-  }, 0);
-
+  basket?.reduce((amount, item) => amount + (item.price || 0), 0);
 export const initialState = {
   basket: [],
   user: null,

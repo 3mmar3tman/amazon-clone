@@ -1,0 +1,527 @@
+[debug] [2025-10-29T08:38:59.265Z] ----------------------------------------------------------------------
+[debug] [2025-10-29T08:38:59.269Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2025-10-29T08:38:59.270Z] CLI Version:   14.20.0
+[debug] [2025-10-29T08:38:59.270Z] Platform:      win32
+[debug] [2025-10-29T08:38:59.270Z] Node Version:  v22.16.0
+[debug] [2025-10-29T08:38:59.270Z] Time:          Wed Oct 29 2025 11:38:59 GMT+0300 (Eastern European Summer Time)
+[debug] [2025-10-29T08:38:59.271Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-10-29T08:38:59.739Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-29T08:38:59.740Z] > authorizing via signed-in user (mar336852@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting, extensions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting, extensions"}}
+[debug] [2025-10-29T08:38:59.746Z] Checked if tokens are valid: true, expires at: 1761728673157
+[debug] [2025-10-29T08:38:59.747Z] Checked if tokens are valid: true, expires at: 1761728673157
+[debug] [2025-10-29T08:38:59.748Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/clone-be2cc [none]
+[debug] [2025-10-29T08:39:00.576Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/clone-be2cc 200
+[debug] [2025-10-29T08:39:00.577Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/clone-be2cc {"projectNumber":"493318784830","projectId":"clone-be2cc","lifecycleState":"ACTIVE","name":"Amazon-clone","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-08-01T11:49:42.234553Z"}
+[debug] [2025-10-29T08:39:00.602Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-10-29T08:39:00.602Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-10-29T08:39:00.603Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-10-29T08:39:00.613Z] Emulator locator file path: C:\Users\Dell\AppData\Local\Temp\hub-clone-be2cc.json
+[debug] [2025-10-29T08:39:00.613Z] [hub] writing locator at C:\Users\Dell\AppData\Local\Temp\hub-clone-be2cc.json
+[debug] [2025-10-29T08:39:00.627Z] [Extensions] Started Extensions emulator, this is a noop.
+[debug] [2025-10-29T08:39:00.638Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-10-29T08:39:00.639Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-10-29T08:39:00.639Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-10-29T08:39:00.639Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: apphosting, auth, firestore, database, pubsub, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mapphosting, auth, firestore, database, pubsub, storage, dataconnect\u001b[22m"}}
+[debug] [2025-10-29T08:39:01.336Z] defaultcredentials: writing to file C:\Users\Dell\AppData\Roaming\firebase\mar336852_gmail_com_application_default_credentials.json
+[debug] [2025-10-29T08:39:01.339Z] Setting GAC to C:\Users\Dell\AppData\Roaming\firebase\mar336852_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Dell\\AppData\\Roaming\\firebase\\mar336852_gmail_com_application_default_credentials.json"}}
+[debug] [2025-10-29T08:39:01.340Z] Checked if tokens are valid: true, expires at: 1761728673157
+[debug] [2025-10-29T08:39:01.340Z] Checked if tokens are valid: true, expires at: 1761728673157
+[debug] [2025-10-29T08:39:01.341Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-be2cc/adminSdkConfig [none]
+[debug] [2025-10-29T08:39:01.747Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-be2cc/adminSdkConfig 200
+[debug] [2025-10-29T08:39:01.748Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-be2cc/adminSdkConfig {"projectId":"clone-be2cc","storageBucket":"clone-be2cc.firebasestorage.app"}
+[debug] [2025-10-29T08:39:01.773Z] Checked if tokens are valid: true, expires at: 1761728673157
+[debug] [2025-10-29T08:39:01.773Z] Checked if tokens are valid: true, expires at: 1761728673157
+[debug] [2025-10-29T08:39:01.773Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-be2cc/sites 
+[debug] [2025-10-29T08:39:02.790Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-be2cc/sites 200
+[debug] [2025-10-29T08:39:02.791Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-be2cc/sites {"sites":[{"name":"projects/clone-be2cc/sites/clone-be2cc","defaultUrl":"https://clone-be2cc.web.app","appId":"1:493318784830:web:695c6f117655a3add94e6f","type":"DEFAULT_SITE"}]}
+[debug] [2025-10-29T08:39:02.791Z] Checked if tokens are valid: true, expires at: 1761728673157
+[debug] [2025-10-29T08:39:02.794Z] Checked if tokens are valid: true, expires at: 1761728673157
+[debug] [2025-10-29T08:39:02.794Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-be2cc/webApps/1:493318784830:web:695c6f117655a3add94e6f/config [none]
+[debug] [2025-10-29T08:39:03.360Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-be2cc/webApps/1:493318784830:web:695c6f117655a3add94e6f/config 200
+[debug] [2025-10-29T08:39:03.361Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-be2cc/webApps/1:493318784830:web:695c6f117655a3add94e6f/config {"projectId":"clone-be2cc","appId":"1:493318784830:web:695c6f117655a3add94e6f","storageBucket":"clone-be2cc.firebasestorage.app","apiKey":"AIzaSyA80sM8_hhsmC2bCn4rsJJ3Ha8LCtySSaE","authDomain":"clone-be2cc.firebaseapp.com","messagingSenderId":"493318784830","measurementId":"G-JCDF52SRND","projectNumber":"493318784830","version":"2"}
+[debug] [2025-10-29T08:39:03.375Z] Checked if tokens are valid: true, expires at: 1761728673157
+[debug] [2025-10-29T08:39:03.376Z] Checked if tokens are valid: true, expires at: 1761728673157
+[debug] [2025-10-29T08:39:03.376Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-be2cc [none]
+[debug] [2025-10-29T08:39:03.638Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-be2cc 200
+[debug] [2025-10-29T08:39:03.638Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-be2cc {"projectId":"clone-be2cc","projectNumber":"493318784830","displayName":"Amazon-clone","name":"projects/clone-be2cc","resources":{"hostingSite":"clone-be2cc"},"state":"ACTIVE","etag":"1_a2cf0f96-747c-46bd-9077-269fe2f9954e"}
+[info] i  hosting[clone-be2cc]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[clone-be2cc]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2025-10-29T08:39:03.693Z] [Extensions] Connecting Extensions emulator, this is a noop.
+[info] i  functions: Watching "D:\next js\apps\Amazon\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"D:\\next js\\apps\\Amazon\\functions\" for Cloud Functions..."}}
+[debug] [2025-10-29T08:39:03.717Z] Validating nodejs source
+[debug] [2025-10-29T08:39:06.692Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1",
+    "stripe": "^19.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2025-10-29T08:39:06.693Z] Building nodejs source
+[debug] [2025-10-29T08:39:06.694Z] Failed to find version of module node: reached end of search path D:\next js\apps\Amazon\functions\node_modules
+[info] +  functions: Using node@22 from host. 
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2025-10-29T08:39:06.701Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-10-29T08:39:06.715Z] Found firebase-functions binary at 'D:\next js\apps\Amazon\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8157
+
+[debug] [2025-10-29T08:39:08.781Z] Got response from /__/functions.yaml {"endpoints":{"api":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
+[debug] [2025-10-29T08:39:12.854Z] defaultcredentials: writing to file C:\Users\Dell\AppData\Roaming\firebase\mar336852_gmail_com_application_default_credentials.json
+[debug] [2025-10-29T08:39:12.855Z] Setting GAC to C:\Users\Dell\AppData\Roaming\firebase\mar336852_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Dell\\AppData\\Roaming\\firebase\\mar336852_gmail_com_application_default_credentials.json"}}
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[info] +  functions[us-central1-api]: http function initialized (http://127.0.0.1:5001/clone-be2cc/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/clone-be2cc/us-central1/api)."}}
+[debug] [2025-10-29T08:39:12.875Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────┬────────────────┬──────────────────────────────────┐
+│ Emulator   │ Host:Port      │ View in Emulator UI              │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Functions  │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions  │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Hosting    │ 127.0.0.1:5000 │ n/a                              │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Extensions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/extensions │
+└────────────┴────────────────┴──────────────────────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500
+┌─────────────────────────┬───────────────┬─────────────────────┐
+│ Extension Instance Name │ Extension Ref │ View in Emulator UI │
+└─────────────────────────┴───────────────┴─────────────────────┘
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2025-10-29T08:40:10.108Z] [work-queue] {"queuedWork":["/clone-be2cc/us-central1/api/payments/create-2025-10-29T08:40:10.108Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-10-29T08:40:10.109Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-be2cc/us-central1/api/payments/create-2025-10-29T08:40:10.108Z"],"workRunningCount":1}
+[debug] [2025-10-29T08:40:10.110Z] Accepted request POST /clone-be2cc/us-central1/api/payments/create?total=142495 --> us-central1-api
+[debug] [2025-10-29T08:40:10.117Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-10-29T08:40:10.118Z] [functions] Got req.url=/clone-be2cc/us-central1/api/payments/create?total=142495, mapping to path=/payments/create?total=142495 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-be2cc/us-central1/api/payments/create?total=142495, mapping to path=/payments/create?total=142495"}}
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2025-10-29T08:40:10.160Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2025-10-29T08:40:10.174Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2025-10-29T08:40:10.185Z] [work-queue] {"queuedWork":["/clone-be2cc/us-central1/api/payments/create-2025-10-29T08:40:10.185Z"],"queueLength":1,"runningWork":["/clone-be2cc/us-central1/api/payments/create-2025-10-29T08:40:10.108Z"],"workRunningCount":1}
+[debug] [2025-10-29T08:40:10.186Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-be2cc/us-central1/api/payments/create-2025-10-29T08:40:10.108Z","/clone-be2cc/us-central1/api/payments/create-2025-10-29T08:40:10.185Z"],"workRunningCount":2}
+[debug] [2025-10-29T08:40:10.186Z] Accepted request POST /clone-be2cc/us-central1/api/payments/create?total=142495 --> us-central1-api
+[debug] [2025-10-29T08:40:10.196Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-10-29T08:40:10.198Z] [functions] Got req.url=/clone-be2cc/us-central1/api/payments/create?total=142495, mapping to path=/payments/create?total=142495 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-be2cc/us-central1/api/payments/create?total=142495, mapping to path=/payments/create?total=142495"}}
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2025-10-29T08:40:10.229Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2025-10-29T08:40:10.230Z] [worker-pool] Adding worker with key us-central1-api, total=2 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=2"}}
+[debug] [2025-10-29T08:40:13.993Z] [runtime-status] [9112] Resolved module firebase-admin {"declared":true,"installed":true,"version":"12.7.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9112] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2025-10-29T08:40:13.994Z] [runtime-status] [9932] Resolved module firebase-admin {"declared":true,"installed":true,"version":"12.7.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9932] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2025-10-29T08:40:13.996Z] [runtime-status] [9932] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.6.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9932] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.6.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-10-29T08:40:13.997Z] [runtime-status] [9112] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.6.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9112] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.6.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-10-29T08:40:13.997Z] [runtime-status] [9932] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9932] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2025-10-29T08:40:13.998Z] [runtime-status] [9112] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9112] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2025-10-29T08:40:14.000Z] [runtime-status] [9112] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.6.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9112] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.6.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-10-29T08:40:14.002Z] [runtime-status] [9932] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.6.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9932] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.6.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-10-29T08:40:14.914Z] [runtime-status] [9112] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9112] Checked functions.config() {\"config\":{}}"}}
+[debug] [2025-10-29T08:40:14.915Z] [runtime-status] [9112] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"6.6.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9112] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"6.6.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}}"}}
+[debug] [2025-10-29T08:40:14.917Z] [runtime-status] [9112] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.6.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9112] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.6.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-10-29T08:40:14.931Z] [runtime-status] [9112] Resolved module firebase-admin {"declared":true,"installed":true,"version":"12.7.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9112] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2025-10-29T08:40:14.934Z] [runtime-status] [9932] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9932] Checked functions.config() {\"config\":{}}"}}
+[debug] [2025-10-29T08:40:14.935Z] [runtime-status] [9932] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"6.6.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9932] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"6.6.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}}"}}
+[debug] [2025-10-29T08:40:14.937Z] [runtime-status] [9932] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.6.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9932] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.6.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-10-29T08:40:14.943Z] [runtime-status] [9112] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.6.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9112] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.6.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-10-29T08:40:14.944Z] [runtime-status] [9112] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"12.7.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9112] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2025-10-29T08:40:14.958Z] [runtime-status] [9932] Resolved module firebase-admin {"declared":true,"installed":true,"version":"12.7.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9932] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2025-10-29T08:40:14.962Z] [runtime-status] [9932] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.6.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9932] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.6.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-10-29T08:40:14.963Z] [runtime-status] [9932] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"12.7.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9932] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2025-10-29T08:40:15.446Z] [runtime-status] [9932] Functions runtime initialized. {"cwd":"D:\\next js\\apps\\Amazon\\functions","node_version":"22.16.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9932] Functions runtime initialized. {\"cwd\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\",\"node_version\":\"22.16.0\"}"}}
+[debug] [2025-10-29T08:40:15.446Z] [runtime-status] [9112] Functions runtime initialized. {"cwd":"D:\\next js\\apps\\Amazon\\functions","node_version":"22.16.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9112] Functions runtime initialized. {\"cwd\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\",\"node_version\":\"22.16.0\"}"}}
+[debug] [2025-10-29T08:40:15.446Z] [runtime-status] [9932] Listening to port: \\?\pipe\fire_emu_6816161372e80d4c {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9932] Listening to port: \\\\?\\pipe\\fire_emu_6816161372e80d4c"}}
+[debug] [2025-10-29T08:40:15.447Z] [runtime-status] [9112] Listening to port: \\?\pipe\fire_emu_f10a8e944dca29f2 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9112] Listening to port: \\\\?\\pipe\\fire_emu_f10a8e944dca29f2"}}
+[debug] [2025-10-29T08:40:15.543Z] [worker-us-central1-api-581271cd-6ccf-40de-89e4-a8aecfceaaf4]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-581271cd-6ccf-40de-89e4-a8aecfceaaf4]: IDLE"}}
+[debug] [2025-10-29T08:40:15.543Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2025-10-29T08:40:15.544Z] [worker-us-central1-api-581271cd-6ccf-40de-89e4-a8aecfceaaf4]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-581271cd-6ccf-40de-89e4-a8aecfceaaf4]: BUSY"}}
+[debug] [2025-10-29T08:40:15.546Z] [worker-us-central1-api-87e5f022-3037-476d-9572-5c05332b04ba]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-87e5f022-3037-476d-9572-5c05332b04ba]: IDLE"}}
+[debug] [2025-10-29T08:40:15.546Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2025-10-29T08:40:15.547Z] [worker-us-central1-api-87e5f022-3037-476d-9572-5c05332b04ba]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-87e5f022-3037-476d-9572-5c05332b04ba]: BUSY"}}
+[debug] [2025-10-29T08:40:15.560Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 15.7553ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 15.7553ms"}}
+[debug] [2025-10-29T08:40:15.599Z] [worker-us-central1-api-581271cd-6ccf-40de-89e4-a8aecfceaaf4]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-581271cd-6ccf-40de-89e4-a8aecfceaaf4]: IDLE"}}
+[debug] [2025-10-29T08:40:15.600Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-10-29T08:40:15.600Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-10-29T08:40:15.601Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-be2cc/us-central1/api/payments/create-2025-10-29T08:40:10.185Z"],"workRunningCount":1}
+[debug] [2025-10-29T08:40:15.602Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 55.5936ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 55.5936ms"}}
+[debug] [2025-10-29T08:40:15.722Z] [worker-us-central1-api-87e5f022-3037-476d-9572-5c05332b04ba]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-87e5f022-3037-476d-9572-5c05332b04ba]: IDLE"}}
+[debug] [2025-10-29T08:40:15.722Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-10-29T08:40:15.722Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-10-29T08:40:15.723Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[info] >  TypeError: Cannot read properties of undefined (reading 'create') {"user":"TypeError: Cannot read properties of undefined (reading 'create')","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m TypeError: Cannot read properties of undefined (reading 'create')"}}
+[info] >      at D:\next js\apps\Amazon\functions\index.js:18:53 {"user":"    at D:\\next js\\apps\\Amazon\\functions\\index.js:18:53","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at D:\\next js\\apps\\Amazon\\functions\\index.js:18:53"}}
+[info] >      at Layer.handleRequest (D:\next js\apps\Amazon\functions\node_modules\router\lib\layer.js:152:17) {"user":"    at Layer.handleRequest (D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\lib\\layer.js:152:17)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Layer.handleRequest (D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\lib\\layer.js:152:17)"}}
+[info] >      at next (D:\next js\apps\Amazon\functions\node_modules\router\lib\route.js:157:13) {"user":"    at next (D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\lib\\route.js:157:13)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at next (D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\lib\\route.js:157:13)"}}
+[info] >      at Route.dispatch (D:\next js\apps\Amazon\functions\node_modules\router\lib\route.js:117:3) {"user":"    at Route.dispatch (D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\lib\\route.js:117:3)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Route.dispatch (D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\lib\\route.js:117:3)"}}
+[info] >      at handle (D:\next js\apps\Amazon\functions\node_modules\router\index.js:435:11) {"user":"    at handle (D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\index.js:435:11)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at handle (D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\index.js:435:11)"}}
+[info] >      at Layer.handleRequest (D:\next js\apps\Amazon\functions\node_modules\router\lib\layer.js:152:17) {"user":"    at Layer.handleRequest (D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\lib\\layer.js:152:17)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Layer.handleRequest (D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\lib\\layer.js:152:17)"}}
+[info] >      at D:\next js\apps\Amazon\functions\node_modules\router\index.js:295:15 {"user":"    at D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\index.js:295:15","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\index.js:295:15"}}
+[info] >      at processParams (D:\next js\apps\Amazon\functions\node_modules\router\index.js:582:12) {"user":"    at processParams (D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\index.js:582:12)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at processParams (D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\index.js:582:12)"}}
+[info] >      at next (D:\next js\apps\Amazon\functions\node_modules\router\index.js:291:5) {"user":"    at next (D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\index.js:291:5)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at next (D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\index.js:291:5)"}}
+[info] >      at jsonParser (D:\next js\apps\Amazon\functions\node_modules\body-parser\lib\types\json.js:109:7) {"user":"    at jsonParser (D:\\next js\\apps\\Amazon\\functions\\node_modules\\body-parser\\lib\\types\\json.js:109:7)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at jsonParser (D:\\next js\\apps\\Amazon\\functions\\node_modules\\body-parser\\lib\\types\\json.js:109:7)"}}
+[info] >  TypeError: Cannot read properties of undefined (reading 'create') {"user":"TypeError: Cannot read properties of undefined (reading 'create')","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m TypeError: Cannot read properties of undefined (reading 'create')"}}
+[info] >      at D:\next js\apps\Amazon\functions\index.js:18:53 {"user":"    at D:\\next js\\apps\\Amazon\\functions\\index.js:18:53","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at D:\\next js\\apps\\Amazon\\functions\\index.js:18:53"}}
+[info] >      at Layer.handleRequest (D:\next js\apps\Amazon\functions\node_modules\router\lib\layer.js:152:17) {"user":"    at Layer.handleRequest (D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\lib\\layer.js:152:17)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Layer.handleRequest (D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\lib\\layer.js:152:17)"}}
+[info] >      at next (D:\next js\apps\Amazon\functions\node_modules\router\lib\route.js:157:13) {"user":"    at next (D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\lib\\route.js:157:13)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at next (D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\lib\\route.js:157:13)"}}
+[info] >      at Route.dispatch (D:\next js\apps\Amazon\functions\node_modules\router\lib\route.js:117:3) {"user":"    at Route.dispatch (D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\lib\\route.js:117:3)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Route.dispatch (D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\lib\\route.js:117:3)"}}
+[info] >      at handle (D:\next js\apps\Amazon\functions\node_modules\router\index.js:435:11) {"user":"    at handle (D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\index.js:435:11)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at handle (D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\index.js:435:11)"}}
+[info] >      at Layer.handleRequest (D:\next js\apps\Amazon\functions\node_modules\router\lib\layer.js:152:17) {"user":"    at Layer.handleRequest (D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\lib\\layer.js:152:17)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Layer.handleRequest (D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\lib\\layer.js:152:17)"}}
+[info] >      at D:\next js\apps\Amazon\functions\node_modules\router\index.js:295:15 {"user":"    at D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\index.js:295:15","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\index.js:295:15"}}
+[info] >      at processParams (D:\next js\apps\Amazon\functions\node_modules\router\index.js:582:12) {"user":"    at processParams (D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\index.js:582:12)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at processParams (D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\index.js:582:12)"}}
+[info] >      at next (D:\next js\apps\Amazon\functions\node_modules\router\index.js:291:5) {"user":"    at next (D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\index.js:291:5)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at next (D:\\next js\\apps\\Amazon\\functions\\node_modules\\router\\index.js:291:5)"}}
+[info] >      at jsonParser (D:\next js\apps\Amazon\functions\node_modules\body-parser\lib\types\json.js:109:7) {"user":"    at jsonParser (D:\\next js\\apps\\Amazon\\functions\\node_modules\\body-parser\\lib\\types\\json.js:109:7)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at jsonParser (D:\\next js\\apps\\Amazon\\functions\\node_modules\\body-parser\\lib\\types\\json.js:109:7)"}}
+[debug] [2025-10-29T08:53:50.378Z] File D:\next js\apps\Amazon\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File D:\\next js\\apps\\Amazon\\functions\\index.js changed, reloading triggers"}}
+[debug] [2025-10-29T08:53:51.393Z] Validating nodejs source
+[debug] [2025-10-29T08:53:54.125Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1",
+    "stripe": "^19.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2025-10-29T08:53:54.125Z] Building nodejs source
+[debug] [2025-10-29T08:53:54.125Z] Failed to find version of module node: reached end of search path D:\next js\apps\Amazon\functions\node_modules
+[info] +  functions: Using node@22 from host. 
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2025-10-29T08:53:54.129Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-10-29T08:53:54.139Z] Found firebase-functions binary at 'D:\next js\apps\Amazon\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8284
+
+[debug] [2025-10-29T08:53:57.030Z] Got response from /__/functions.yaml {"endpoints":{"api":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
+[debug] [2025-10-29T08:54:01.090Z] defaultcredentials: writing to file C:\Users\Dell\AppData\Roaming\firebase\mar336852_gmail_com_application_default_credentials.json
+[debug] [2025-10-29T08:54:01.092Z] Setting GAC to C:\Users\Dell\AppData\Roaming\firebase\mar336852_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Dell\\AppData\\Roaming\\firebase\\mar336852_gmail_com_application_default_credentials.json"}}
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2025-10-29T08:54:01.094Z] [worker-pool] Shutting down IDLE worker (us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-api)"}}
+[debug] [2025-10-29T08:54:01.094Z] [worker-us-central1-api-581271cd-6ccf-40de-89e4-a8aecfceaaf4]: FINISHING {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-581271cd-6ccf-40de-89e4-a8aecfceaaf4]: FINISHING"}}
+[debug] [2025-10-29T08:54:01.094Z] [worker-pool] Shutting down IDLE worker (us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-api)"}}
+[debug] [2025-10-29T08:54:01.095Z] [worker-us-central1-api-87e5f022-3037-476d-9572-5c05332b04ba]: FINISHING {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-87e5f022-3037-476d-9572-5c05332b04ba]: FINISHING"}}
+[debug] [2025-10-29T08:54:01.128Z] [worker-us-central1-api-581271cd-6ccf-40de-89e4-a8aecfceaaf4]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-581271cd-6ccf-40de-89e4-a8aecfceaaf4]: exited"}}
+[debug] [2025-10-29T08:54:01.128Z] [worker-us-central1-api-581271cd-6ccf-40de-89e4-a8aecfceaaf4]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-581271cd-6ccf-40de-89e4-a8aecfceaaf4]: FINISHED"}}
+[debug] [2025-10-29T08:54:01.134Z] [worker-us-central1-api-87e5f022-3037-476d-9572-5c05332b04ba]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-87e5f022-3037-476d-9572-5c05332b04ba]: exited"}}
+[debug] [2025-10-29T08:54:01.134Z] [worker-us-central1-api-87e5f022-3037-476d-9572-5c05332b04ba]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-87e5f022-3037-476d-9572-5c05332b04ba]: FINISHED"}}
+[debug] [2025-10-29T08:54:46.871Z] File D:\next js\apps\Amazon\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File D:\\next js\\apps\\Amazon\\functions\\index.js changed, reloading triggers"}}
+[debug] [2025-10-29T08:54:47.879Z] Validating nodejs source
+[debug] [2025-10-29T08:54:50.377Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1",
+    "stripe": "^19.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2025-10-29T08:54:50.377Z] Building nodejs source
+[debug] [2025-10-29T08:54:50.377Z] Failed to find version of module node: reached end of search path D:\next js\apps\Amazon\functions\node_modules
+[info] +  functions: Using node@22 from host. 
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2025-10-29T08:54:50.381Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-10-29T08:54:50.393Z] Found firebase-functions binary at 'D:\next js\apps\Amazon\functions\node_modules\.bin\firebase-functions'
+[debug] [2025-10-29T08:54:50.402Z] File D:\next js\apps\Amazon\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File D:\\next js\\apps\\Amazon\\functions\\index.js changed, reloading triggers"}}
+[info] Serving at port 8430
+
+[debug] [2025-10-29T08:54:51.412Z] Validating nodejs source
+[debug] [2025-10-29T08:54:53.317Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1",
+    "stripe": "^19.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2025-10-29T08:54:53.318Z] Building nodejs source
+[debug] [2025-10-29T08:54:53.318Z] Failed to find version of module node: reached end of search path D:\next js\apps\Amazon\functions\node_modules
+[info] +  functions: Using node@22 from host. 
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2025-10-29T08:54:53.323Z] Got response from /__/functions.yaml {"endpoints":{"api":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
+[debug] [2025-10-29T08:54:53.327Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-10-29T08:54:53.340Z] Found firebase-functions binary at 'D:\next js\apps\Amazon\functions\node_modules\.bin\firebase-functions'
+[debug] [2025-10-29T08:54:53.348Z] File D:\next js\apps\Amazon\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File D:\\next js\\apps\\Amazon\\functions\\index.js changed, reloading triggers"}}
+[debug] [2025-10-29T08:54:54.354Z] Validating nodejs source
+[debug] [2025-10-29T08:54:56.004Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1",
+    "stripe": "^19.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2025-10-29T08:54:56.004Z] Building nodejs source
+[debug] [2025-10-29T08:54:56.005Z] Failed to find version of module node: reached end of search path D:\next js\apps\Amazon\functions\node_modules
+[info] +  functions: Using node@22 from host. 
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2025-10-29T08:54:56.008Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-10-29T08:54:56.019Z] Found firebase-functions binary at 'D:\next js\apps\Amazon\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8440
+
+[debug] [2025-10-29T08:54:57.469Z] defaultcredentials: writing to file C:\Users\Dell\AppData\Roaming\firebase\mar336852_gmail_com_application_default_credentials.json
+[debug] [2025-10-29T08:54:57.488Z] Setting GAC to C:\Users\Dell\AppData\Roaming\firebase\mar336852_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Dell\\AppData\\Roaming\\firebase\\mar336852_gmail_com_application_default_credentials.json"}}
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[info] Serving at port 8298
+
+[debug] [2025-10-29T08:54:59.001Z] Got response from /__/functions.yaml {"endpoints":{"api":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
+[debug] [2025-10-29T08:55:00.894Z] Got response from /__/functions.yaml {"endpoints":{"api":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
+[debug] [2025-10-29T08:55:03.094Z] defaultcredentials: writing to file C:\Users\Dell\AppData\Roaming\firebase\mar336852_gmail_com_application_default_credentials.json
+[debug] [2025-10-29T08:55:03.096Z] Setting GAC to C:\Users\Dell\AppData\Roaming\firebase\mar336852_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Dell\\AppData\\Roaming\\firebase\\mar336852_gmail_com_application_default_credentials.json"}}
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2025-10-29T08:55:05.000Z] defaultcredentials: writing to file C:\Users\Dell\AppData\Roaming\firebase\mar336852_gmail_com_application_default_credentials.json
+[debug] [2025-10-29T08:55:05.006Z] Setting GAC to C:\Users\Dell\AppData\Roaming\firebase\mar336852_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Dell\\AppData\\Roaming\\firebase\\mar336852_gmail_com_application_default_credentials.json"}}
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2025-10-29T08:56:10.370Z] [work-queue] {"queuedWork":["/clone-be2cc/us-central1/api/payments/create-2025-10-29T08:56:10.369Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-10-29T08:56:10.371Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-be2cc/us-central1/api/payments/create-2025-10-29T08:56:10.369Z"],"workRunningCount":1}
+[debug] [2025-10-29T08:56:10.371Z] Accepted request POST /clone-be2cc/us-central1/api/payments/create?total=137095 --> us-central1-api
+[debug] [2025-10-29T08:56:10.384Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-10-29T08:56:10.385Z] [functions] Got req.url=/clone-be2cc/us-central1/api/payments/create?total=137095, mapping to path=/payments/create?total=137095 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-be2cc/us-central1/api/payments/create?total=137095, mapping to path=/payments/create?total=137095"}}
+[debug] [2025-10-29T08:56:10.385Z] [worker-pool] Cleaned up workers for us-central1-api: 2 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-api: 2 --> 0"}}
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2025-10-29T08:56:10.422Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2025-10-29T08:56:10.423Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2025-10-29T08:56:10.515Z] [work-queue] {"queuedWork":["/clone-be2cc/us-central1/api/payments/create-2025-10-29T08:56:10.515Z"],"queueLength":1,"runningWork":["/clone-be2cc/us-central1/api/payments/create-2025-10-29T08:56:10.369Z"],"workRunningCount":1}
+[debug] [2025-10-29T08:56:10.520Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-be2cc/us-central1/api/payments/create-2025-10-29T08:56:10.369Z","/clone-be2cc/us-central1/api/payments/create-2025-10-29T08:56:10.515Z"],"workRunningCount":2}
+[debug] [2025-10-29T08:56:10.522Z] Accepted request POST /clone-be2cc/us-central1/api/payments/create?total=137095 --> us-central1-api
+[debug] [2025-10-29T08:56:10.550Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-10-29T08:56:10.551Z] [functions] Got req.url=/clone-be2cc/us-central1/api/payments/create?total=137095, mapping to path=/payments/create?total=137095 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-be2cc/us-central1/api/payments/create?total=137095, mapping to path=/payments/create?total=137095"}}
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2025-10-29T08:56:10.631Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2025-10-29T08:56:10.632Z] [worker-pool] Adding worker with key us-central1-api, total=2 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=2"}}
+[debug] [2025-10-29T08:56:16.977Z] [runtime-status] [15212] Resolved module firebase-admin {"declared":true,"installed":true,"version":"12.7.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [15212] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2025-10-29T08:56:16.983Z] [runtime-status] [15212] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.6.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [15212] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.6.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-10-29T08:56:16.984Z] [runtime-status] [15212] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [15212] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2025-10-29T08:56:16.986Z] [runtime-status] [15212] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.6.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [15212] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.6.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-10-29T08:56:16.992Z] [runtime-status] [14144] Resolved module firebase-admin {"declared":true,"installed":true,"version":"12.7.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [14144] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2025-10-29T08:56:16.996Z] [runtime-status] [14144] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.6.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [14144] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.6.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-10-29T08:56:16.998Z] [runtime-status] [14144] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [14144] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2025-10-29T08:56:17.000Z] [runtime-status] [14144] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.6.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [14144] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.6.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-10-29T08:56:17.963Z] [runtime-status] [15212] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [15212] Checked functions.config() {\"config\":{}}"}}
+[debug] [2025-10-29T08:56:17.964Z] [runtime-status] [15212] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"6.6.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [15212] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"6.6.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}}"}}
+[debug] [2025-10-29T08:56:17.966Z] [runtime-status] [15212] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.6.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [15212] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.6.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-10-29T08:56:17.993Z] [runtime-status] [14144] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [14144] Checked functions.config() {\"config\":{}}"}}
+[debug] [2025-10-29T08:56:18.005Z] [runtime-status] [14144] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"6.6.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [14144] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"6.6.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}}"}}
+[debug] [2025-10-29T08:56:18.008Z] [runtime-status] [14144] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.6.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [14144] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.6.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-10-29T08:56:18.009Z] [runtime-status] [15212] Resolved module firebase-admin {"declared":true,"installed":true,"version":"12.7.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [15212] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2025-10-29T08:56:18.016Z] [runtime-status] [15212] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.6.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [15212] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.6.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-10-29T08:56:18.017Z] [runtime-status] [15212] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"12.7.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [15212] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2025-10-29T08:56:18.024Z] [runtime-status] [14144] Resolved module firebase-admin {"declared":true,"installed":true,"version":"12.7.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [14144] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2025-10-29T08:56:18.032Z] [runtime-status] [14144] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.6.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [14144] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.6.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-10-29T08:56:18.033Z] [runtime-status] [14144] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"12.7.0","resolution":"D:\\next js\\apps\\Amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [14144] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2025-10-29T08:56:18.711Z] [runtime-status] [14144] Functions runtime initialized. {"cwd":"D:\\next js\\apps\\Amazon\\functions","node_version":"22.16.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [14144] Functions runtime initialized. {\"cwd\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\",\"node_version\":\"22.16.0\"}"}}
+[debug] [2025-10-29T08:56:18.742Z] [runtime-status] [14144] Listening to port: \\?\pipe\fire_emu_381e86a9b6c90582 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [14144] Listening to port: \\\\?\\pipe\\fire_emu_381e86a9b6c90582"}}
+[debug] [2025-10-29T08:56:18.791Z] [runtime-status] [15212] Functions runtime initialized. {"cwd":"D:\\next js\\apps\\Amazon\\functions","node_version":"22.16.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [15212] Functions runtime initialized. {\"cwd\":\"D:\\\\next js\\\\apps\\\\Amazon\\\\functions\",\"node_version\":\"22.16.0\"}"}}
+[debug] [2025-10-29T08:56:18.792Z] [runtime-status] [15212] Listening to port: \\?\pipe\fire_emu_14fca2df77bd6774 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [15212] Listening to port: \\\\?\\pipe\\fire_emu_14fca2df77bd6774"}}
+[debug] [2025-10-29T08:56:18.842Z] [worker-us-central1-api-430d86fa-3be8-4cb9-8dfe-f4b34fac927e]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-430d86fa-3be8-4cb9-8dfe-f4b34fac927e]: IDLE"}}
+[debug] [2025-10-29T08:56:18.843Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2025-10-29T08:56:18.845Z] [worker-us-central1-api-430d86fa-3be8-4cb9-8dfe-f4b34fac927e]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-430d86fa-3be8-4cb9-8dfe-f4b34fac927e]: BUSY"}}
+[info] >  💰 Payment Request Received >>>  137095 {"user":"💰 Payment Request Received >>>  137095","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m 💰 Payment Request Received >>>  137095"}}
+[info] >  ❌ Error creating payment intent: Cannot read properties of undefined (reading 'create') {"user":"❌ Error creating payment intent: Cannot read properties of undefined (reading 'create')","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m ❌ Error creating payment intent: Cannot read properties of undefined (reading 'create')"}}
+[debug] [2025-10-29T08:56:18.886Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 42.3463ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 42.3463ms"}}
+[debug] [2025-10-29T08:56:18.889Z] [worker-us-central1-api-430d86fa-3be8-4cb9-8dfe-f4b34fac927e]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-430d86fa-3be8-4cb9-8dfe-f4b34fac927e]: IDLE"}}
+[debug] [2025-10-29T08:56:18.889Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-10-29T08:56:18.890Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-10-29T08:56:18.890Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-be2cc/us-central1/api/payments/create-2025-10-29T08:56:10.515Z"],"workRunningCount":1}
+[debug] [2025-10-29T08:56:18.891Z] [worker-us-central1-api-445f25dc-5ab3-4094-9257-9624780a9e65]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-445f25dc-5ab3-4094-9257-9624780a9e65]: IDLE"}}
+[debug] [2025-10-29T08:56:18.891Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2025-10-29T08:56:18.893Z] [worker-us-central1-api-430d86fa-3be8-4cb9-8dfe-f4b34fac927e]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-430d86fa-3be8-4cb9-8dfe-f4b34fac927e]: BUSY"}}
+[info] >  💰 Payment Request Received >>>  137095 {"user":"💰 Payment Request Received >>>  137095","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m 💰 Payment Request Received >>>  137095"}}
+[info] >  ❌ Error creating payment intent: Cannot read properties of undefined (reading 'create') {"user":"❌ Error creating payment intent: Cannot read properties of undefined (reading 'create')","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m ❌ Error creating payment intent: Cannot read properties of undefined (reading 'create')"}}
+[debug] [2025-10-29T08:56:19.005Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 112.8155ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 112.8155ms"}}
+[debug] [2025-10-29T08:56:19.012Z] [worker-us-central1-api-430d86fa-3be8-4cb9-8dfe-f4b34fac927e]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-430d86fa-3be8-4cb9-8dfe-f4b34fac927e]: IDLE"}}
+[debug] [2025-10-29T08:56:19.014Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-10-29T08:56:19.015Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-10-29T08:56:19.015Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2025-10-29T09:01:16.014Z] File D:\next js\apps\Amazon\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File D:\\next js\\apps\\Amazon\\functions\\index.js changed, reloading triggers"}}
+[debug] [2025-10-29T09:01:17.020Z] Validating nodejs source
+[debug] [2025-10-29T09:01:27.282Z] checkFunctionsSDKVersion was unable to fetch information from NPM Error: spawnSync C:\WINDOWS\system32\cmd.exe ETIMEDOUT
+    at Object.spawnSync (node:internal/child_process:1120:20)
+    at Object.spawnSync (node:child_process:868:24)
+    at Function.spawnSync [as sync] (C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\index.js:26:23)
+    at Object.getLatestSDKVersion (C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:54:25)
+    at Object.checkFunctionsSDKVersion (C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:74:32)
+    at Delegate.validate (C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\index.js:89:20)
+    at FunctionsEmulator.discoverTriggers (C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:320:35)
+    at async FunctionsEmulator.loadTriggers (C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:362:34)
+[debug] [2025-10-29T09:01:27.284Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1",
+    "stripe": "^19.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2025-10-29T09:01:27.285Z] Building nodejs source
+[debug] [2025-10-29T09:01:27.286Z] Failed to find version of module node: reached end of search path D:\next js\apps\Amazon\functions\node_modules
+[info] +  functions: Using node@22 from host. 
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2025-10-29T09:01:27.319Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-10-29T09:01:27.378Z] Found firebase-functions binary at 'D:\next js\apps\Amazon\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8382
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification. Timeout after 10000. See https://firebase.google.com/docs/functions/tips#avoid_deployment_timeouts_during_initialization' {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification. Timeout after 10000. See https://firebase.google.com/docs/functions/tips#avoid_deployment_timeouts_during_initialization'"}}
+[debug] [2025-10-29T09:06:18.644Z] [work-queue] {"queuedWork":["/clone-be2cc/us-central1/api/payments/create-2025-10-29T09:06:18.644Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-10-29T09:06:18.646Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-be2cc/us-central1/api/payments/create-2025-10-29T09:06:18.644Z"],"workRunningCount":1}
+[debug] [2025-10-29T09:06:18.646Z] Accepted request POST /clone-be2cc/us-central1/api/payments/create?total=98100 --> us-central1-api
+[debug] [2025-10-29T09:06:18.659Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-10-29T09:06:18.660Z] [functions] Got req.url=/clone-be2cc/us-central1/api/payments/create?total=98100, mapping to path=/payments/create?total=98100 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-be2cc/us-central1/api/payments/create?total=98100, mapping to path=/payments/create?total=98100"}}
+[debug] [2025-10-29T09:06:18.661Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2025-10-29T09:06:18.677Z] [worker-us-central1-api-430d86fa-3be8-4cb9-8dfe-f4b34fac927e]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-430d86fa-3be8-4cb9-8dfe-f4b34fac927e]: BUSY"}}
+[debug] [2025-10-29T09:06:18.684Z] [work-queue] {"queuedWork":["/clone-be2cc/us-central1/api/payments/create-2025-10-29T09:06:18.684Z"],"queueLength":1,"runningWork":["/clone-be2cc/us-central1/api/payments/create-2025-10-29T09:06:18.644Z"],"workRunningCount":1}
+[debug] [2025-10-29T09:06:18.685Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-be2cc/us-central1/api/payments/create-2025-10-29T09:06:18.644Z","/clone-be2cc/us-central1/api/payments/create-2025-10-29T09:06:18.684Z"],"workRunningCount":2}
+[debug] [2025-10-29T09:06:18.685Z] Accepted request POST /clone-be2cc/us-central1/api/payments/create?total=98100 --> us-central1-api
+[debug] [2025-10-29T09:06:18.694Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-10-29T09:06:18.696Z] [functions] Got req.url=/clone-be2cc/us-central1/api/payments/create?total=98100, mapping to path=/payments/create?total=98100 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-be2cc/us-central1/api/payments/create?total=98100, mapping to path=/payments/create?total=98100"}}
+[debug] [2025-10-29T09:06:18.697Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2025-10-29T09:06:18.708Z] [worker-us-central1-api-445f25dc-5ab3-4094-9257-9624780a9e65]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-445f25dc-5ab3-4094-9257-9624780a9e65]: BUSY"}}
+[info] >  💰 Payment Request Received >>>  98100 {"user":"💰 Payment Request Received >>>  98100","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m 💰 Payment Request Received >>>  98100"}}
+[info] >  ❌ Error creating payment intent: Cannot read properties of undefined (reading 'create') {"user":"❌ Error creating payment intent: Cannot read properties of undefined (reading 'create')","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m ❌ Error creating payment intent: Cannot read properties of undefined (reading 'create')"}}
+[debug] [2025-10-29T09:06:19.351Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 675.481ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 675.481ms"}}
+[debug] [2025-10-29T09:06:19.421Z] [worker-us-central1-api-430d86fa-3be8-4cb9-8dfe-f4b34fac927e]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-430d86fa-3be8-4cb9-8dfe-f4b34fac927e]: IDLE"}}
+[debug] [2025-10-29T09:06:19.422Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-10-29T09:06:19.423Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-10-29T09:06:19.423Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-be2cc/us-central1/api/payments/create-2025-10-29T09:06:18.684Z"],"workRunningCount":1}
+[info] >  💰 Payment Request Received >>>  98100 {"user":"💰 Payment Request Received >>>  98100","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m 💰 Payment Request Received >>>  98100"}}
+[info] >  ❌ Error creating payment intent: Cannot read properties of undefined (reading 'create') {"user":"❌ Error creating payment intent: Cannot read properties of undefined (reading 'create')","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m ❌ Error creating payment intent: Cannot read properties of undefined (reading 'create')"}}
+[debug] [2025-10-29T09:06:19.733Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 1025.7242ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 1025.7242ms"}}
+[debug] [2025-10-29T09:06:19.790Z] [worker-us-central1-api-445f25dc-5ab3-4094-9257-9624780a9e65]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-445f25dc-5ab3-4094-9257-9624780a9e65]: IDLE"}}
+[debug] [2025-10-29T09:06:19.791Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-10-29T09:06:19.792Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-10-29T09:06:19.792Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
